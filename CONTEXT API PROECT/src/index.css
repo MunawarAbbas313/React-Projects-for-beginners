@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+ 
+
+}
+
+.navContent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(211, 211, 211, 0.087);
+   
+}
+.left img{
+    width: 150px;
+    height:80px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.right ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 10px;
+    list-style: none;
+}
+.bts{
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+}
+ul li{
+    font-size: 20px;
+    border: none ;
+    padding: 5px 7px;
+    border-radius: 10px;
+    cursor: pointer;
+
+    
+}
+ul li:hover{
+    background-color: lightgray;
+    transition: all 0.4s ease;
+    border-bottom: 1px solid aqua;
+    border-top: 1px solid aqua;
+}
+.login{
+    padding: 5px 7px ;
+    outline: none;
+    background-color: lightgreen;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    border: none;
+    border-radius: 12px;
+}
+.signup{
+    padding: 5px 7px ;
+    outline: none;
+    background-color: rgb(241, 241, 183);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    border: none;
+    border-radius: 12px;
+    
+}
+.login:hover{
+    background-color: green ;
+    color: rgb(255, 255, 255);
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+.signup:hover{
+    background-color: yellow;
+    color: black;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+.text{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 39px;
+}
+.text span{
+    color: aqua;
+}
+.ab{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(211, 211, 211, 0.565);
+    padding: 10px;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.ab img{
+    width: 450px;
+    height: 450px;
+    border-radius: 20px;
+    
+}
+.right{
+    display: flex;
+    flex-direction: column;
+}
+.Dhead{
+    margin-top: 10px;
+    text-align: center;
+}
+.int{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    gap: 40px
+    ;
+}
+input{
+    padding: 20px;
+    font-size: 20px;
+    color: black;
+    background-color: lightgreen;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sbtn{
+    padding: 7px 12px;
+    border-radius: 8px;
+    border: none;
+    background-color: lawngreen;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+}
+.Wc{
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
