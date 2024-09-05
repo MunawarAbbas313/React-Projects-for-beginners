@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+    background-color: grey;
+}
+.text-greenyellow{
+    color: rgb(31, 69, 104);
+}
